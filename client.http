@@ -11,8 +11,18 @@ Content-Type: application/json
 
 {
     "username": "Shivaranjini",
-    "password": "123456"
+    "password": "123456",
 }
 
 ###
 POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    
+    "username": "Shivaranjini",
+    "password": "123456",
+    "name": "Shivaranjini",
+    "email": "ranjini3400@gmail.com"
+
+}
